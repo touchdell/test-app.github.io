@@ -12,6 +12,9 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  <ion-content fullscreen class="ion-padding">
+    <ion-button expand="block" (click)="presentActionSheet()">Show Action Sheet</ion-button>
+    <ion-button (click)="presentAlert()">show alert</ion-button>
+  </ion-content>
   <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
